@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <WiFi.h>
 
-const int pirPin = 2; // Pino onde o sensor PIR está conectado
-int pirState = LOW;   // Inicializa com movimento como "sem movimento"
+const int pirPin = 2; 
+int pirState = LOW;  
 
 void setup() {
   Serial.begin(9600);
